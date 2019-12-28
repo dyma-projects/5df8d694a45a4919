@@ -1,0 +1,8 @@
+
+<h3>Status : {{status}}</h3>
+
+<p *ngIf="status">p1</p>
+<p *ngIf="!status">p2</p>
+
+<button class="btn btn-success" type="button" (click)="status = !status">Changer status</button>
+
